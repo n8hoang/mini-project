@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS Positioning</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  </head>
+
+  <body>
+    <header>
+        <h1 id="heading">Nathan Hoang</h1>
+      <ul>
+        <li><a href="#formhyperlink">Contact</a></li>
+        <li id="github"><strong></strong> <a href="https://github.com/n8hoang">GitHub</a></li>
+        <li id="portfolio"><strong></strong> <a href="#">Portfolio</a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="mainsection">
+        <h1 id="titlesection">My Landing Page</h1>
+        <div class="container">
+        <figure>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Baby.gnu-800x800.png" alt="goomba looking character"/>
+          <figcaption>Placeholder Photo</figcaption>
+        </figure>
+        </div>
+      </section>
+
+      <footer>
+        <h2 class="contactsection">Contact Me!</h2>
+        <div class=" absolute-container">
+            <form>
+            <a id="formhyperlink">
+              <label for="name" class="formname">Name:</label><br>
+              <input type="text" id="fname" name="fname" value=""><br>
+              <label for="email" class="formname">Email:</label><br>
+              <input type="text" id="lname" name="lname" value=""><br><br>
+              <input type="submit" value="Send" class="sendbutton">
+              </a>
+            </form>             
+        </div>
+      </footer>
+    </main>
+  </body>
+
+</html>

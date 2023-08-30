@@ -1,0 +1,108 @@
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+  
+main {
+    display: inline-block;
+    width: 60%;
+}
+
+header {
+  width: 99%;
+  border: 9px solid darkblue;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  background-color: lightblue;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+ul {
+    text-align: right;
+    color: #ffffff;
+  }
+
+#heading {
+    position: relative;
+    left: 200px;
+    top: 30px;
+    margin: 0px;
+    border: 0px;
+    color: blue;
+}
+
+.mainsection {
+    position: relative;
+    left: 60%;
+    font-size: 40px;
+    top: 200px;
+    width: 550px;
+    display: block;
+    
+}
+  
+li {
+    color: red;
+    font-weight: bolder;
+    background-color: lightblue;
+    list-style-type: none;
+    font-size: 20px;
+    display: inline;
+    position: relative;
+    right: 30px;
+  }
+
+form {
+    position: relative;
+    left: 51%;
+
+}
+
+.formname {
+    font-size: 20px;
+    color: red;
+    position: relative;
+    left: 68px;
+
+}
+
+.container {
+    position: relative;
+    right: 5%;
+}
+
+.contactsection {
+    position: relative;
+    left: 84.5%;
+    width: 300px;
+}
+
+.sendbutton {
+    position: relative;
+    left: 72px;
+}
+
+
+#formhyperlink {
+    position: relative;
+    left: 390px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+figcaption {
+    position: relative;
+    bottom: 200px;
+    left: 343px;
+    font-size: 10px;
+}
+
+figure {
+    position: relative;
+    right: 20px;
+}
+
+#titlesection {
+    position: relative;
+    left: 135px;
+}
